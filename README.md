@@ -6,7 +6,7 @@
   
 
 ## Getting started
-This README.md assumes that Java and Maven has already been installed and that the project already has been cloned or downloaded.
+This README.md assumes that Java and Maven are already installed and that the project has been cloned or downloaded.
 
 ### Build the application
 ```mvn clean install```
@@ -16,7 +16,7 @@ This command will compile the code, run the tests and package the application in
 ```mvn spring-boot:run```
 This command will start the application and it will be accessible at `http://localhost:8080`.
 
-Upon initialization, a h2 database will be created at `<projectdirectory>/data`
+Upon initialization, a h2 database will be created at `<projectdirectory>/data`.
 
 
 ## API Endpoints
@@ -41,7 +41,7 @@ Upon initialization, a h2 database will be created at `<projectdirectory>/data`
 ## Running Tests
 ```mvn test```
 
-This command will run all the unit tests for the application. Additionally, a report including the test coverage will be created at `<projectdirectory>/target/site/jacoco/index.html`
+This command will run all the unit tests for the application. Additionally, a report including the test coverage will be created at `<projectdirectory>/target/site/jacoco/index.html`.
 
 The image below shows the test coverage.
 
@@ -50,7 +50,7 @@ The image below shows the test coverage.
 ## Running Checkstyle
 ```mvn checkstyle:checkstyle```
 
-This command will run Checkstyle for the entire project. A report will be created at `<projectdirectory>/target/site/checkstyle.html`
+This command will run Checkstyle for the entire project. A report will be created at `<projectdirectory>/target/site/checkstyle.html`.
 
 Note: we are using 
-[Checkstyle](https://checkstyle.org/) 9.3 with sun_checks.xml ruleset. However, a few rules have been ignored, which can be found in `supressions.xml`
+[Checkstyle](https://checkstyle.org/) 9.3 with sun_checks.xml ruleset. However, a few rules have been ignored, which can be found in `supressions.xml`.
